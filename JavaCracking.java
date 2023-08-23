@@ -43,6 +43,8 @@ public class JavaCracking{
 		final String password5 = "0123456789";
 		final String password6 = "10203040506070809";
 		final String password7 = "7558485700000";
+		final String password8 = "05674473";
+		final String password9 = "00333455";
 
 		crackPassword(password);
 		System.out.println();
@@ -57,6 +59,9 @@ public class JavaCracking{
 		crackPassword(password6);
 		System.out.println();
 		crackPassword(password7);
-
+		System.out.println();
+		crackPassword(password8);
+		System.out.println();
+		crackPassword(password9);
 	}
 }
