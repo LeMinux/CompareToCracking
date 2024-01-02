@@ -1,5 +1,5 @@
 # CompareToCracking
-I had an idea that if a comparision method returned the subtracted indecies directly that it could be used to crack passwords. Java compareTo() does this unlike C strcmp which just returns 0 or 1.
+I had an idea that if a comparision method returned the subtracted value directly that it could be used to crack passwords. Java compareTo() is one example that does this.
 
 I have only tested with digits, but this can probably work (with some changes) if characters are involved.
 Zero was little bit tricky since if the password already contained it, and zero was used as a "distance" measurement it measured the next index.
